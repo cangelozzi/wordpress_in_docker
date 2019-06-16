@@ -9,8 +9,16 @@
 
 #### check container with 
 `docker ps`
+
 #### kill all container with
 `docker kill $(docker ps -q)`
+
+or
+
+`docker-compose rm`
+
+#### restart composer after a CTRL/C or a `docker-compose stop`
+`docker-compose restart`
 
 ==========================================
 
